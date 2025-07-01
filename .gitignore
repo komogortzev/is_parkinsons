@@ -1,0 +1,29 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ipynb_checkpoints/ # Временные файлы Jupyter Notebook
+profile_default/
+ipython_config.py
+.python_history
+
+data/*.csv # Исключает все CSV-файлы из папки data/ (если не хотите их версионировать)
+
+models/*.joblib # Исключает все файлы .joblib из папки models/ (обычно модели большие)
+
+.ipynb_checkpoints/
+*.ipynb-checkpoint # Эти файлы тоже могут создаваться
+.ipynb_history/
+
+.vscode/
+.idea/
+
+.DS_Store # macOS
+Thumbs.db # Windows
+desktop.ini # Windows
+
+*.log
